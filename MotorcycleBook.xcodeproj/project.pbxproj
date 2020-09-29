@@ -16,6 +16,7 @@
 		0479AD31252349D900BDAA76 /* MotorcycleBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AD30252349D900BDAA76 /* MotorcycleBookTests.swift */; };
 		0479AD3C252349D900BDAA76 /* MotorcycleBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AD3B252349D900BDAA76 /* MotorcycleBookUITests.swift */; };
 		0479AD4D2523517F00BDAA76 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AD4C2523517F00BDAA76 /* detailsVC.swift */; };
+		04EA45AB2523D23E00DFD5F5 /* motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA45AA2523D23E00DFD5F5 /* motorcycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0479AD3B252349D900BDAA76 /* MotorcycleBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleBookUITests.swift; sourceTree = "<group>"; };
 		0479AD3D252349D900BDAA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0479AD4C2523517F00BDAA76 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		04EA45AA2523D23E00DFD5F5 /* motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motorcycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				0479AD24252349D800BDAA76 /* LaunchScreen.storyboard */,
 				0479AD27252349D800BDAA76 /* Info.plist */,
 				0479AD4C2523517F00BDAA76 /* detailsVC.swift */,
+				04EA45AA2523D23E00DFD5F5 /* motorcycle.swift */,
 			);
 			path = MotorcycleBook;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				0479AD1E252349D400BDAA76 /* ViewController.swift in Sources */,
 				0479AD4D2523517F00BDAA76 /* detailsVC.swift in Sources */,
+				04EA45AB2523D23E00DFD5F5 /* motorcycle.swift in Sources */,
 				0479AD1A252349D400BDAA76 /* AppDelegate.swift in Sources */,
 				0479AD1C252349D400BDAA76 /* SceneDelegate.swift in Sources */,
 			);
