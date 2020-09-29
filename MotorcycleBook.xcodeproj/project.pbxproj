@@ -15,6 +15,7 @@
 		0479AD26252349D800BDAA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479AD24252349D800BDAA76 /* LaunchScreen.storyboard */; };
 		0479AD31252349D900BDAA76 /* MotorcycleBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AD30252349D900BDAA76 /* MotorcycleBookTests.swift */; };
 		0479AD3C252349D900BDAA76 /* MotorcycleBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AD3B252349D900BDAA76 /* MotorcycleBookUITests.swift */; };
+		0479AD4D2523517F00BDAA76 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AD4C2523517F00BDAA76 /* detailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0479AD37252349D900BDAA76 /* MotorcycleBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorcycleBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0479AD3B252349D900BDAA76 /* MotorcycleBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleBookUITests.swift; sourceTree = "<group>"; };
 		0479AD3D252349D900BDAA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0479AD4C2523517F00BDAA76 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0479AD22252349D800BDAA76 /* Assets.xcassets */,
 				0479AD24252349D800BDAA76 /* LaunchScreen.storyboard */,
 				0479AD27252349D800BDAA76 /* Info.plist */,
+				0479AD4C2523517F00BDAA76 /* detailsVC.swift */,
 			);
 			path = MotorcycleBook;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0479AD1E252349D400BDAA76 /* ViewController.swift in Sources */,
+				0479AD4D2523517F00BDAA76 /* detailsVC.swift in Sources */,
 				0479AD1A252349D400BDAA76 /* AppDelegate.swift in Sources */,
 				0479AD1C252349D400BDAA76 /* SceneDelegate.swift in Sources */,
 			);
