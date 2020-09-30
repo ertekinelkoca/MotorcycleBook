@@ -33,7 +33,7 @@
                     <navigationItem key="navigationItem" id="MwV-4a-lpv"/>
                     <connections>
                         <outlet property="tableView" destination="30M-72-aEW" id="8rr-Eq-1Fu"/>
-                        <segue destination="T0R-nT-xfY" kind="show" identifier="toDetailVC" id="mBS-Xe-OBf"/>
+                        <segue destination="T0R-nT-xfY" kind="show" identifier="toDetailsVC" id="mBS-Xe-OBf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -54,7 +54,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="name Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOs-0A-sd7">
                                 <rect key="frame" x="62" y="547" width="300" height="76"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="mub-gT-fEm"/>
+                                    <constraint firstAttribute="height" constant="76" id="AWr-er-Xfe"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -63,7 +63,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcA-Iv-h3P">
                                 <rect key="frame" x="57" y="670" width="300" height="76"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="roy-uD-WXa"/>
+                                    <constraint firstAttribute="height" constant="76" id="0c4-mJ-VmW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -73,23 +73,22 @@
                         <viewLayoutGuide key="safeArea" id="qGr-ph-hib"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="qGr-ph-hib" firstAttribute="bottom" secondItem="kcA-Iv-h3P" secondAttribute="bottom" constant="116" id="3vX-HC-Ge4"/>
-                            <constraint firstItem="Yev-gV-nj1" firstAttribute="centerX" secondItem="kcA-Iv-h3P" secondAttribute="centerX" id="5TZ-BA-qvj"/>
-                            <constraint firstItem="Yev-gV-nj1" firstAttribute="leading" secondItem="qGr-ph-hib" secondAttribute="leading" constant="53" id="GTj-Xl-FKQ"/>
-                            <constraint firstItem="eOs-0A-sd7" firstAttribute="leading" secondItem="qGr-ph-hib" secondAttribute="leading" constant="62" id="Uev-PO-kMp"/>
-                            <constraint firstItem="Yev-gV-nj1" firstAttribute="top" secondItem="qGr-ph-hib" secondAttribute="top" constant="36" id="VZl-sm-sDS"/>
-                            <constraint firstItem="kcA-Iv-h3P" firstAttribute="top" secondItem="eOs-0A-sd7" secondAttribute="bottom" constant="47" id="Weo-kb-VJb"/>
-                            <constraint firstItem="Yev-gV-nj1" firstAttribute="centerX" secondItem="1zb-XF-r6m" secondAttribute="centerX" id="dE7-6c-90X"/>
-                            <constraint firstItem="kcA-Iv-h3P" firstAttribute="leading" secondItem="qGr-ph-hib" secondAttribute="leading" constant="57" id="dIh-Lg-Hfg"/>
-                            <constraint firstItem="Yev-gV-nj1" firstAttribute="trailing" secondItem="eOs-0A-sd7" secondAttribute="trailing" id="e9f-sp-xYA"/>
-                            <constraint firstItem="eOs-0A-sd7" firstAttribute="top" secondItem="Yev-gV-nj1" secondAttribute="bottom" constant="68" id="jO6-6G-3jn"/>
+                            <constraint firstItem="Yev-gV-nj1" firstAttribute="centerX" secondItem="1zb-XF-r6m" secondAttribute="centerX" id="7Y4-wq-eYn"/>
+                            <constraint firstItem="Yev-gV-nj1" firstAttribute="trailing" secondItem="eOs-0A-sd7" secondAttribute="trailing" id="8LD-Dh-dMv"/>
+                            <constraint firstItem="kcA-Iv-h3P" firstAttribute="leading" secondItem="qGr-ph-hib" secondAttribute="leading" constant="57" id="FNs-AE-ppD"/>
+                            <constraint firstItem="kcA-Iv-h3P" firstAttribute="top" secondItem="eOs-0A-sd7" secondAttribute="bottom" constant="47" id="G6W-XM-WED"/>
+                            <constraint firstItem="Yev-gV-nj1" firstAttribute="leading" secondItem="qGr-ph-hib" secondAttribute="leading" constant="53" id="KsB-5M-TPx"/>
+                            <constraint firstItem="Yev-gV-nj1" firstAttribute="top" secondItem="qGr-ph-hib" secondAttribute="top" constant="36" id="KzV-Od-YoA"/>
+                            <constraint firstItem="eOs-0A-sd7" firstAttribute="top" secondItem="Yev-gV-nj1" secondAttribute="bottom" constant="68" id="PVC-0A-d9L"/>
+                            <constraint firstItem="eOs-0A-sd7" firstAttribute="leading" secondItem="qGr-ph-hib" secondAttribute="leading" constant="62" id="PYv-0a-0XS"/>
+                            <constraint firstItem="Yev-gV-nj1" firstAttribute="centerX" secondItem="kcA-Iv-h3P" secondAttribute="centerX" id="mAp-Sa-EDJ"/>
+                            <constraint firstItem="qGr-ph-hib" firstAttribute="bottom" secondItem="kcA-Iv-h3P" secondAttribute="bottom" constant="116" id="pwn-kS-f2J"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="tFY-ey-GbH"/>
                     <connections>
                         <outlet property="descriptionLabel" destination="kcA-Iv-h3P" id="FNk-ty-oVx"/>
                         <outlet property="imageView" destination="Yev-gV-nj1" id="dOo-eJ-QV4"/>
-                        <outlet property="jobLabel" destination="kcA-Iv-h3P" id="DO0-Qn-jn4"/>
                         <outlet property="nameLabel" destination="eOs-0A-sd7" id="q45-fD-0zq"/>
                     </connections>
                 </viewController>

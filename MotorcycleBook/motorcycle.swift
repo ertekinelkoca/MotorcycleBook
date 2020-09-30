@@ -14,12 +14,10 @@ class Motorcycle {
     var description : String
     var image : UIImage
     
-    
     init(modelName : String , modelDescription : String , modelView : UIImage) {
         name = modelName
         description = modelDescription
         image = modelView
     }
-    
     
 }
